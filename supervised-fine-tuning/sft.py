@@ -69,7 +69,7 @@ print("\n--------------------------------\n")
 
 print("\nAfter fine-tuning\n")
 
-# load the tuned model
+# load the tuned model from https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Assistant_model.pt
 model.load_state_dict(torch.load('Assistant_model.pt',map_location=torch.device('cpu')))
 
 pipe = pipeline(
