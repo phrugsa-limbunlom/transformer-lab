@@ -7,3 +7,7 @@ __pycache__
 *.pyw
 *.pyz
 *.pywz
+.vector_cache
+*.pth
+*.pkl
+*.pt
